@@ -8,9 +8,9 @@ OBJS = $(SRCS:.cpp=.o)
 
 OUTPUT = test
 
-CFLAGS = -std=c++11 -I/home/linhan/opencv3/include
+CFLAGS = -std=c++11 -I/opencv_route/include
 
-LIBS = -L/home/linhan/opencv3/lib \
+LIBS = -L/opencv_route/lib \
 	-lopencv_core \
 	-lopencv_highgui \
 	-lopencv_imgproc \
